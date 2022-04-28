@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page administration des utilisateurs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.scss" />
+    <script
+      src="https://kit.fontawesome.com/904a49c7aa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="./index.html" class="header-brand">Blog</a>
+        <div class="header-menu">
+          <ul>
+            <li>
+              <a href="./index.html" class="header-nav active">Accueil</a>
+            </li>
+            <li>
+              <a href="./form.html" class="header-nav">utilisateurs</a>
+            </li>
+            <li>
+              <a href="./form.html" class="header-nav">Créer un article</a>
+            </li>
+          </ul>
+          <div class="header-menu-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <form>
+          <h2 class="h2 title-underline">Liste des utilisateurs</h2>
+          <div class="form-group">
+            <label>Photo de profile</label>
+            <input type="text" name="img" />
+          </div>
+          <div class="form-group">
+            <label>Image</label>
+            <input type="text" name="img" />
+          </div>
+          <div class="form-group">
+            <label>Pseudo</label>
+            <input type="text" name="username" />
+          </div>
+          <div class="form-group">
+            <label>Prénom</label>
+            <input type="text" name="firstname" />
+          </div>
+          <div class="form-group">
+            <label>Nom</label>
+            <input type="text" name="lastname" />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label>Téléphone</label>
+            <input type="number" name="phone" />
+          </div>
+          <div class="form-btn-container">
+            <button type="button" class="btn btn-secondary">supprimer</button>
+            <button type="button" class="btn btn-secondary">modifier</button>
+            <button type="button" class="btn btn-secondary">rechercher</button>
+          </div>
+        </form>
+      </div>
+      <footer>© blog</footer>
+    </div>
+  </body>
+</html>
